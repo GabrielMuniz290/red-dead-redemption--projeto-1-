@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   } 
+   @font-face {
+    font-family:'redemption' ;
+    src: url('chinese rocks rg.otf') format('opentype');
+}
+body,a {
+    background-color: black;
+    color: #ecf0f1;
+    font-family: "redemption";
+}
+
+
+
+header h1, 
+section h2,
+section h3,
+ textarea{
+    font-weight: normal;
+
+}
+section h2{
+    margin-bottom: 20px;
+   
+    
+}
+
+header h1{
+
+    font-family: "redemption";
+    font-size: 50px;
+    background-color: black;
+    text-align: center;
+}
+    
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+      color: #ecf0f1;
+    align-items: center;
+}
+
+header nav li a{
+    align-items: center;
+    text-decoration: none;   
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header .container, 
+section  .container{
+    display: flex;
+    
+     color: #ecf0f1;
+     padding: 16px 0;
+     align-items: center;
+     justify-content: space-between;
+
+}
+
+#foto img{
+ height: 617px;
+}
+
+    .plataformas{
+        margin-right: 120px;
+    }
+
+
+.plataformas img{
+    height: 40px;
+    
+
+} 
+
+#resenha .container{
+    display: block;
+   
+}
+
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+    font-family: redemption;
+    color: black;
+}
+form button{
+    background-color: rgb(141, 3, 3);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(216, 5, 5) ;
+}
+
+input:focus{
+    outline-color: red;
+}
+
+
+footer{
+    background-color:rgb(141, 3, 3) ;
+}
+
+
+
